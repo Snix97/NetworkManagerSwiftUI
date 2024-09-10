@@ -16,6 +16,19 @@ class NetworkManager: ObservableObject {
     let monitor = NWPathMonitor()
     let queue = DispatchQueue(label: "NetworkManager")
     
+    //Computer properties
+    var connectionDescription: String {
+        if isConnected {
+            return "Internet connection looks good!"
+        } else {
+            return "It looks like your not connected to the internet.  Please check your settings and retry"
+        }
+    }
+    
+    var connectionImageName: String {
+        return isConnected ? "wifi" : "wifi.slash"
+    }
+    
     init() {
         monitor.pathUpdateHandler = { path in
             DispatchQueue.main.async {

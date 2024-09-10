@@ -37,7 +37,6 @@
 		52008DD12C90AB4E00E005FC = {
 			isa = PBXGroup;
 			children = (
-				52008DEB2C90AEFE00E005FC /* NetworkManager.swift */,
 				52008DDC2C90AB4E00E005FC /* NetworkManagerSwiftUI */,
 				52008DDB2C90AB4E00E005FC /* Products */,
 			);
@@ -54,6 +53,7 @@
 		52008DDC2C90AB4E00E005FC /* NetworkManagerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				52008DEB2C90AEFE00E005FC /* NetworkManager.swift */,
 				52008DDD2C90AB4E00E005FC /* NetworkManagerSwiftUIApp.swift */,
 				52008DDF2C90AB4E00E005FC /* ContentView.swift */,
 				52008DE12C90AB4F00E005FC /* Assets.xcassets */,

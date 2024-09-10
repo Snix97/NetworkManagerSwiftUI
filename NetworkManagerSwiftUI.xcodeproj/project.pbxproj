@@ -11,6 +11,7 @@
 		52008DE02C90AB4E00E005FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008DDF2C90AB4E00E005FC /* ContentView.swift */; };
 		52008DE22C90AB4F00E005FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52008DE12C90AB4F00E005FC /* Assets.xcassets */; };
 		52008DE52C90AB4F00E005FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52008DE42C90AB4F00E005FC /* Preview Assets.xcassets */; };
+		52008DEC2C90AEFE00E005FC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008DEB2C90AEFE00E005FC /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		52008DDF2C90AB4E00E005FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52008DE12C90AB4F00E005FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52008DE42C90AB4F00E005FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52008DEB2C90AEFE00E005FC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		52008DD12C90AB4E00E005FC = {
 			isa = PBXGroup;
 			children = (
+				52008DEB2C90AEFE00E005FC /* NetworkManager.swift */,
 				52008DDC2C90AB4E00E005FC /* NetworkManagerSwiftUI */,
 				52008DDB2C90AB4E00E005FC /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52008DEC2C90AEFE00E005FC /* NetworkManager.swift in Sources */,
 				52008DE02C90AB4E00E005FC /* ContentView.swift in Sources */,
 				52008DDE2C90AB4E00E005FC /* NetworkManagerSwiftUIApp.swift in Sources */,
 			);
